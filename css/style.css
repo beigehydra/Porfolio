@@ -202,9 +202,9 @@ span {
     margin: 2rem 0 3rem;
 }
 
-.about-image{
+.about img{
     box-shadow: 15px 15px 20px var(--main-color);
-   width: 25vw;
+   width: 20vw;
    border-radius: 50px;
   }
 
@@ -581,6 +581,9 @@ span {
 
     .portfolio-container{
         grid-template-columns: repeat(2, 1fr);
+    }
+    .flip-box-back img{
+        display: none;
     }
 }
 
